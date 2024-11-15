@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/yahmed/IdeaProjects/Test_Automation/src/test">
+        <classes>
+            <class name="Baseclass"/>
+            <class name="LoginTest"/>
+            <class name="PIMTest"/>
+            <class name="addlogTest"/>
+        </classes>
+    </test>
+</suite>

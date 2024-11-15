@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/yahmed/IdeaProjects/Test_Automation/src/test(failed)">
+    <classes>
+      <class name="PIMTest">
+        <methods>
+          <include name="invalidSearchforemployee"/>
+          <include name="Testsetup"/>
+          <include name="AfterTest"/>
+          <include name="DynamicSuccessfullSearch"/>
+        </methods>
+      </class> <!-- PIMTest -->
+      <class name="LoginTest">
+        <methods>
+          <include name="TestFailedLogin"/>
+          <include name="Testsetup"/>
+          <include name="AfterTest"/>
+          <include name="TestSuccessFulllogin"/>
+        </methods>
+      </class> <!-- LoginTest -->
+      <class name="addlogTest">
+        <methods>
+          <include name="Testsetup"/>
+          <include name="addlogtestsuccessfully"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- addlogTest -->
+    </classes>
+  </test> <!-- C:/Users/yahmed/IdeaProjects/Test_Automation/src/test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
